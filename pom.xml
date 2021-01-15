@@ -42,6 +42,7 @@
     </build>
 
     <scm>
+        <url>https://github.com/ekjot1313/spring-pet-clinic</url>
         <developerConnection>
             scm:git:https://github.com/ekjot1313/spring-pet-clinic.git
         </developerConnection>
