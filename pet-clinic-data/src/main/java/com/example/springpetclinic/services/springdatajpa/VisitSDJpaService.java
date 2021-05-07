@@ -2,7 +2,7 @@ package com.example.springpetclinic.services.springdatajpa;
 
 import com.example.springpetclinic.model.Visit;
 import com.example.springpetclinic.repositories.VisitRepository;
-import com.example.springpetclinic.services.CrudService;
+import com.example.springpetclinic.services.VisitService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import java.util.Set;
 
 @Service
 @Profile("springdatajpa")
-public class VisitSDJpaService implements CrudService<Visit, Long> {
+public class VisitSDJpaService implements VisitService {
 
     private final VisitRepository visitRepository;
 
